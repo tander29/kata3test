@@ -33,70 +33,73 @@ function kata1() {
 }
 const kata2 = () => {
   return twenty.filter(x => x % 2 === 0);
-},
+};
 const kata3 = () => {
   return twenty.filter(x => x % 2 !== 0);
-},
+};
 const kata4 = () => {
   return hundred.filter(x => x % 5 === 0);
-},
+};
 const kata5 = () => {
   return hundred.filter(x => Number.isInteger(Math.sqrt(x)));
-},
+};
 
 const kata6 = () => {
   return twentyReversed;
-},
+};
 const kata7 = () => {
   return twentyReversed.filter(x => x % 2 === 0);
-},
+};
 const kata8 = () => {
   return twentyReversed.filter(x => x % 2 !== 0);
-},
+};
 
 const kata9 = () => {
   return hundredReversed.filter(x => x % 5 === 0);
-},
+};
 const kata10 = () => {
   return hundredReversed.filter(x => Number.isInteger(Math.sqrt(x)));
-},
+};
 const kata11 = () => {
   return sampleArray;
-},
+};
 const kata12 = () => {
   return sampleArray.filter(number => number % 2 === 0);
-},
+};
 const kata13 = () => {
   return sampleArray.filter(number => number % 2 !== 0);
-},
+};
 const kata14 = () => {
   return sampleArray.map(x => x * x);
-},
+};
 const kata15 = () => {
   const sum = (total, num) => total + num;
   let N = 21;
   let a = Array.apply(null, { length: N }).map(Number.call, Number);
   return a.reduce(sum);
-}
+};
 const kata16 = () => {
   const sum = (total, num) => total + num;
-  return ;
-},
+  return;
+};
 const kata17 = () => {
   return 20;
-},
+};
 const kata18 = () => {
   return 940;
-}
+};
 const kata19 = () => {
   return 1;
-}
+};
+const kata20 = () => {
+  return 1;
+};
 const kata21 = () => {
   return 1;
-}
+};
 const kata22 = () => {
   return 1;
-}
+};
 const kata23 = () => {
   return 1;
-}
+};
